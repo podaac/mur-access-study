@@ -8,11 +8,11 @@ To compare MUR 1-km SST dataset in...
   - THREDDS, downloading data
   - OPeNDAP On-Premise, downloading data
   - Earthdata Search, downloading data
-  - Amazon Web Services (AWS) (computing), Earthdata Cloud (accessing dataset), Harmony API (or OPeNDAP?) (subsetting), analysis within cloud without downloading data
+  - Amazon Web Services (AWS) (computing), Earthdata Cloud (accessing dataset), and Harmony API (or OPeNDAP?) (subsetting), analysis within cloud without downloading data
 - Zarr, using netCDF4-to-Zarr converting services 
-  - AWS (computing), Earthdata Cloud (accessing dataset), Harmony API (conversion/subsetting), analysis within cloud without downloading data
+  - AWS (computing), Earthdata Cloud (accessing dataset), and Harmony API (conversion/subsetting), analysis within cloud without downloading data
 - Zarr, data native to this format
-  -  AWS (computing), AWS Open Registry (accessing dataset), Harmony API (or OPeNDAP?) (subsetting), analysis within cloud without downloading data
+  -  AWS (computing), AWS Open Registry (accessing dataset), and Harmony API (or OPeNDAP?) (subsetting), analysis within cloud without downloading data
 
 ...for several cloud analysis scenarios at different scales, including:
 - Global SST time series from June 2002 – January 2020
