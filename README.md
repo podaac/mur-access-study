@@ -3,6 +3,7 @@
 The goal of this project is to use a proxy “big data” dataset, in this case the MUR 1-km Sea Surface Temperature dataset, to compare runtimes between native (netCDF4) and cloud-optimized (Zarr) formats across several analysis scenarios.
 
 Goals:
+<br/>
 To compare MUR 1-km SST dataset in... 
 - netCDF4
   - THREDDS, local analysis after downloading data
