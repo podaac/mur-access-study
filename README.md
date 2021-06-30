@@ -2,8 +2,7 @@
 
 The goal of this project is to use a proxy “big data” dataset, in this case the MUR 1-km Sea Surface Temperature dataset, to compare runtimes between native (netCDF4) and cloud-optimized (Zarr) formats across several analysis scenarios.
 
-Goals:
-<br/>
+### Goals
 To compare MUR 1-km SST dataset in... 
 - netCDF4
   - THREDDS, local analysis after downloading data
@@ -26,6 +25,6 @@ January 2020
 March 2016 (2015–2016 El Nino)
 
 
-Notes:
+### Notes
 - Currently no L3/L4 subsetters in Harmony, so must use OPeNDAP for cloud data subsetting
 - The Earthdata Search scenario under netCDF4 is not currently possible because MUR 1-km granules are global, they would have to be manually subset post download, this may be tested anyways but it is low priority
