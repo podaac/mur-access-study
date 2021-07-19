@@ -7,7 +7,7 @@ To compare MUR 1-km SST dataset in...
 - netCDF4
   - THREDDS, local analysis after downloading data
   - OPeNDAP On-Premise, local analysis after downloading data
-  - ~~Earthdata Search, local analysis after downloading data~~ (There is currently no subsetter for L4 data, making Earthdata Search scenario impossible)
+  - ~~Earthdata Search, local analysis after downloading data~~ (There is currently no subsetter for L4 data, making the Earthdata Search scenarios impossible)
   - Earthdata Cloud (data access) and OPeNDAP (subsetting), local analysis after downloading data
   - Amazon Web Services (AWS) (computing), Earthdata Cloud (accessing dataset), and OPeNDAP (subsetting), analysis within cloud without downloading data
 - Zarr, using netCDF4-to-Zarr converting services 
