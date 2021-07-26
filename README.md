@@ -9,11 +9,11 @@ To compare MUR 1-km SST dataset in...
   - OPeNDAP On-Premise, local analysis after downloading data
   - ~~Earthdata Search, local analysis after downloading data~~ (There is currently no subsetter for L4 data, making the Earthdata Search scenarios impossible)
   - Earthdata Cloud (data access) and OPeNDAP (subsetting), local analysis after downloading data
-  - Amazon Web Services (AWS) (computing), Earthdata Cloud (accessing dataset), and OPeNDAP (subsetting), analysis within cloud without downloading data
+  - Amazon Web Services (AWS) (computing), Earthdata Cloud (accessing dataset), analysis within cloud without downloading data
 - Zarr, using netCDF4-to-Zarr converting services 
   - AWS (computing), Earthdata Cloud (accessing dataset), and Harmony API (conversion/subsetting), analysis within cloud without downloading data
 - Zarr, data native to this format
-  -  AWS (computing), AWS Open Registry (accessing dataset), and OPeNDAP (subsetting), analysis within cloud without downloading data
+  -  AWS (computing), AWS Open Registry (accessing dataset), analysis within cloud without downloading data
 
 ...for several cloud analysis scenarios at different scales, including:
 - Global SST time series from June 2002 – January 2020
