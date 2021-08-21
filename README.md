@@ -11,19 +11,19 @@ To compare MUR 1-km SST dataset in...
   - Earthdata Cloud (data access) and OPeNDAP (subsetting), local analysis after downloading data
   - Amazon Web Services (AWS) (computing), Earthdata Cloud (accessing dataset), analysis within cloud without downloading data
 - Zarr, using netCDF4-to-Zarr converting services 
-  - AWS (computing), Earthdata Cloud (accessing dataset), and Harmony API (conversion/subsetting), analysis within cloud without downloading data
+  - AWS (computing), Earthdata Cloud (accessing dataset), and Harmony API (conversion/subsetting), analysis within cloud without downloading data (L4 datasets are currently unable to be spatially subset without a Harmony L4 Subsetter)
 - Zarr, data native to this format
   -  AWS (computing), AWS Open Registry (accessing dataset), analysis within cloud without downloading data
 
 ...for several cloud analysis scenarios at different scales, including:
-- Global SST time series from June 2002 – January 2020
-- Global SST spatial plot averaged from June 2002 – January 2020
+- ~~Global SST time series from June 2002 – January 2020~~ (Not completed, ran out of time in internship)
+- ~~Global SST spatial plot averaged from June 2002 – January 2020~~ (Not completed, ran out of time in internship)
 - Regional SST Anomaly time series – Hawaiian Coral Reef from August 2019 –
 January 2020
 - Regional SST Anomaly spatial plot – Hawaiian Coral Reef averaged from August
 2019 – January 2020
-- Application of climatology to derive anomalies for Nino 3.4 box from January 2015 –
-March 2016 (2015–2016 El Nino)
+- ~~Application of climatology to derive anomalies for Nino 3.4 box from January 2015 –
+March 2016 (2015–2016 El Nino)~~ (Not completed, ran out of time in internship)
 
 ## Notes
-- Currently no L3/L4 subsetters in Harmony, so must use OPeNDAP for cloud data subsetting
+- There is currently no L4 subsetter in Harmony, once one is developed the Earthdata Search and netCDF4-to-Zarr scenarios should be able to be tested as expected
